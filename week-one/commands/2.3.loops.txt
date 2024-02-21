@@ -1,4 +1,8 @@
 mkdir itb_loops && cd itb_loops
+echo $(( 10 + 10 ))  - output is 20
+echo $( 10 + 10 ) - output 10 command not found
+echo ( 10 + 10 ) - output bash: syntax error near unexpected token `10'
+
 for (( i=0; i < 20; i++ ))
 do
   echo $i
