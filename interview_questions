@@ -1,1 +1,36 @@
+    What is a shell script?: 
+    This is a basic question to test your understanding of what a shell script is and its purpose.
 
+    What are the different types of shells available in Unix/Linux?: 
+    Common shells include Bash (Bourne Again SHell), C Shell, Korn Shell, etc.
+
+    How do you declare a variable in shell scripting?
+
+    Explain the difference between $var and ${var} in shell scripting: 
+     ${var} is used when you need to separate the variable name from surrounding text or when you want to access a variable's value in the middle of a string
+
+    What is the significance of the #! (shebang) line in a shell script?: 
+    This line at the beginning of a script tells the system which interpreter to use to execute the script.
+
+    How do you comment out multiple lines in a shell script?
+    : <<COMMENT
+     <<COMMENT
+
+    Explain the difference between '==' and '=' in shell scripting: Understanding the difference between comparison and assignment operators is crucial.
+   In summary, = is primarily used for assignment(assignment operator), while == is used for string comparison within conditional statements(comparison operator).
+
+    What is command substitution? How is it done?: Command substitution is a way to capture the output of a command and use it in another command or assignment.
+
+    How do you loop through files in a directory in shell scripting?: Understanding how to iterate through files is essential for file manipulation tasks.
+
+    Explain what the 'case' statement does in shell scripting: The 'case' statement is used for multi-way branching, similar to a switch statement in other programming languages.
+
+    How do you check if a file exists in a shell script?: Checking for the existence of files is a common task in shell scripting.
+
+    Explain the difference between $? and $0 in shell scripting: Understanding these special variables is essential for error handling and script information retrieval.
+
+    What is the purpose of the 'grep' command in shell scripting?: Understanding basic text processing commands like 'grep' is important for manipulating text data.
+
+    How do you pass arguments to a shell script?: Knowing how to pass arguments allows scripts to be more versatile and reusable.
+
+    Explain the 'read' command in shell scripting: The 'read' command is used to get user input during script execution.
